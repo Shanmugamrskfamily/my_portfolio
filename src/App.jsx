@@ -1,14 +1,15 @@
-import React from 'react';
+//App.jsx
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Portfolio from './pages/Portfolio';
+import Hero from './pages/Hero';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-
+  
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar/>
-      <Portfolio/>
+      <Hero/>
     </div>
   );
 }
