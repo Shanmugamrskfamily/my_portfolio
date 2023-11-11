@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './pages/Hero';
 import 'react-toastify/dist/ReactToastify.css';
+import Skills from './pages/Skills';
+import Footer from './components/Footer';
+import Projects from './pages/Projects';
 
 function App() {
   
@@ -10,6 +13,9 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
+      <Skills/>
+      <Projects/>
+      <Footer/>
     </div>
   );
 }

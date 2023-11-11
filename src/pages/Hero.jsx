@@ -1,3 +1,4 @@
+//Hero.jsx
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -10,11 +11,11 @@ function Hero() {
           <div className='items-center'>
             <img src="/images/hero.gif" className='rounded-lg hero' alt="SHANMUGAM R" />
           </div>
-          <div className='mt-12 ml-4'>
-            <p className='sm:text-right  text-4xl font-bold'>Hi 👋 I'm SHANMUGAM R, nice to meet you. Please take a look around.</p>
-            <p className='text-center mt-6 text-2xl'>I'm {' '}
+          <div className='mt-12 ml-4 text-center'>
+            <p className='sm:text-right text-4xl font-bold'>Hi 👋 I'm SHANMUGAM R, nice to meet you. Please take a look around.</p>
+            <p className=' mt-6 text-2xl'>{' '}
             <span style={{ fontWeight: 'bold', color: 'green' }}><Typewriter
-                words={['passionate Full Stack Developer', 'skilled in MERN stack', 'with a strong foundation in web development.', "Let's create something amazing together!"]}
+                words={["I'm passionate Full Stack Developer", 'skilled in MERN stack', 'with a strong foundation in web development.', "Let's create something amazing together!"]}
                 loop={true}
                 cursor
                 cursorStyle='|'

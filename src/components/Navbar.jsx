@@ -62,21 +62,21 @@ function Navbar() {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-white">
-      <li><a href="#about" className="nav-link text-2xl">
+      <li><a href="#about" className="nav-link" style={{fontSize:'20px'}}>
           About
         </a></li>
         <li>
-          <a href="#skills" className="nav-link text-2xl">
+          <a href="#skills" className="nav-link" style={{fontSize:'20px'}}>
           Skills
         </a>
         </li>
-        <li><a href="#projects" className="nav-link text-2xl">
+        <li><a href="#projects" className="nav-link" style={{fontSize:'20px'}}>
           Projects
         </a></li>
-		<li><a href="#experience" className="nav-link text-2xl">
+		<li><a href="#experience" className="nav-link" style={{fontSize:'20px'}}>
           Experience
         </a></li>
-		<li><a href="#contact" className="nav-link text-2xl">
+		<li><a href="#contact" className="nav-link" style={{fontSize:'20px'}}>
           Contact
         </a></li>
     </ul>
