@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Skills from './pages/Skills';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
+import Experience from './pages/Experience';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <Skills/>
       <Projects/>
+      <Experience/>
       <Footer/>
     </div>
   );

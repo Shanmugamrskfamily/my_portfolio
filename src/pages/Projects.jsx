@@ -24,7 +24,7 @@ const Projects = () => {
                             <div className="p-4">
                                 <h3 className="text-xl font-bold mb-2">{item.title}</h3>
                                 <p
-                                    className="text-sm text-gray-600 mb-4 opacity-0 group-hover:opacity-100 transition-opacity"
+                                    className="text-sm text-gray-600 mb-4  transition-opacity"
                                     style={{ maxHeight: '80px', overflow: 'hidden', textOverflow: 'ellipsis' }}
                                 >
                                     {item.description}
