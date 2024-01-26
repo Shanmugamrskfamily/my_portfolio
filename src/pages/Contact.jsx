@@ -3,38 +3,43 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { FaFilePdf } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
-import dotenv from 'dotenv';
-dotenv.config();
+
 
 const Contact = () => {
 
     const [isSent,setIsSent]=useState(false);
-  const formik = useFormik({
-    initialValues: {
-      name: '',
-      email: '',
-      message: '',
-    },
-    validationSchema: Yup.object({
-      name: Yup.string().required('Name is required'),
-      email: Yup.string().email('Invalid email address').required('Email is required'),
-      message: Yup.string().required('Message is required'),
-    }),
-    onSubmit: async (values, { setSubmitting, resetForm }) => {
-      try {
-        setSubmitting(true);
-        await emailjs.send( process.env.REACT_APP_EMAILJS_SERVICEID, process.env.REACT_APP_EMAILJS_TEMPLATEID, values, process.env.REACT_APP_EMAILJS_APIKEY);
-
-        console.log('Sent successfully');
-        setIsSent(true);
-        resetForm();
-      } catch (error) {
-        console.error('Failed to send:', error);
-      } finally {
-        setSubmitting(false);
-      }
-    },
-  });
+    const formik = useFormik({
+        initialValues: {
+          name: '',
+          email: '',
+          message: '',
+        },
+        validationSchema: Yup.object({
+          name: Yup.string().required('Name is required'),
+          email: Yup.string().email('Invalid email address').required('Email is required'),
+          message: Yup.string().required('Message is required'),
+        }),
+        onSubmit: async (values, { setSubmitting, resetForm }) => {
+          try {
+            setSubmitting(true);
+            await emailjs.send(
+              process.env.REACT_APP_EMAILJS_SERVICEID,
+              process.env.REACT_APP_EMAILJS_TEMPLATEID,
+              values,
+              process.env.REACT_APP_EMAILJS_APIKEY
+            );
+      
+            console.log('Sent successfully');
+            setIsSent(true);
+            resetForm();
+          } catch (error) {
+            console.error('Failed to send:', error);
+          } finally {
+            setSubmitting(false);
+          }
+        },
+      });
+      
   const downloadResume = () => {
     window.open('https://drive.google.com/uc?export=download&id=1irv4_nlfbS2afjzwQvbsKIBIzYxcuhyS', '_blank');
   };
