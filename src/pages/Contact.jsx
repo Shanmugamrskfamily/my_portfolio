@@ -23,10 +23,10 @@ const Contact = () => {
           try {
             setSubmitting(true);
             await emailjs.send(
-              process.env.REACT_APP_EMAILJS_SERVICEID,
-              process.env.REACT_APP_EMAILJS_TEMPLATEID,
+                'service_v3euoo4',
+              'template_hxtv0b3',
               values,
-              process.env.REACT_APP_EMAILJS_APIKEY
+              'K69_p-qQF_AENJakL'
             );
       
             console.log('Sent successfully');
