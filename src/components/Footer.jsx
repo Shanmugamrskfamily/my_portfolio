@@ -29,11 +29,11 @@ function Footer() {
       <nav className="items-end">
         <header className="footer-title">Connect with Me</header>
         <div className="grid grid-flow-col gap-4">
-          <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-github fa-2x"></i>
+          <a href="https://github.com/Shanmugamrskfamily" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-github fa-4x"></i>
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-linkedin fa-2x"></i>
+          <a href="https://www.linkedin.com/in/shanmugamrskfamily/" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-linkedin fa-4x"></i>
           </a>
         </div>
       </nav>

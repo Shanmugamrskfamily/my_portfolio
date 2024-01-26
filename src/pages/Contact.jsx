@@ -49,7 +49,7 @@ const Contact = () => {
     <div id="contact" className="mt-8">
       <div className="text-center mb-4">
         <p><span className="text-4xl font-bold inline border-b-4 border-pink-600 mb-8">Contact Me</span><button
-        onClick={downloadResume} className="bg-emerald-300 hover:bg-emerald-400 text-white bg-emerald-800 ml-8 font-bold py-2 px-4 rounded 
+        onClick={downloadResume} className="bg-emerald-300 hover:bg-emerald-400 text-white bg-emerald-800 ml-8 mt-4 font-bold py-2 px-4 rounded 
         inline-flex items-center">
             <FaFilePdf className="mr-1 text-2xl" />Download CV
             </button>
