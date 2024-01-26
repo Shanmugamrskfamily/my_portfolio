@@ -125,12 +125,12 @@ const Contact = () => {
           </button>
           </form>
         {formik.isSubmitting && (
-          <div className="mt-4 p-2 bg-yellow-200 border-yellow-500 border-l-4 rounded-md">
+          <div className="mt-4 p-2 bg-yellow-200 text-black border-yellow-500 border-l-4 rounded-md">
             Sending message, please wait...
           </div>
         )}
         {isSent && (
-          <div className="mt-4 p-2 bg-green-200 border-green-500 border-l-4 rounded-md">
+          <div className="mt-4 p-2 bg-green-200 text-black border-green-500 border-l-4 rounded-md">
             Message sent successfully!
           </div>
         )}
