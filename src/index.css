@@ -112,3 +112,15 @@ body::-webkit-scrollbar-thumb {
     transform: translateX(-50%);
   }
 }
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+.bg-zinc-300 {
+  border-radius: 20px;
+}

@@ -1,9 +1,10 @@
 //Navbar.jsx
 import React,{ useState, useEffect } from "react";
+import { FaFilePdf } from 'react-icons/fa';
 
 function Navbar() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "bumblebee"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "night"
   );
 
   const handleToggle = (e) => {
@@ -12,6 +13,9 @@ function Navbar() {
     } else {
       setTheme("bumblebee");
     }
+  };
+  const downloadResume = () => {
+    window.open('https://drive.google.com/uc?export=download&id=1irv4_nlfbS2afjzwQvbsKIBIzYxcuhyS', '_blank');
   };
   useEffect(() => {
     localStorage.setItem("theme", theme);
@@ -82,6 +86,9 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end px-4">
+  <button onClick={downloadResume} className="text-white font-bold py-2 px-4 rounded inline-flex items-center">
+    <FaFilePdf className="mr-2 w-10 h-10" />CV
+    </button>
     <label className="swap swap-rotate">
           <input
             type="checkbox"
