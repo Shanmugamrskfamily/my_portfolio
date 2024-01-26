@@ -6,6 +6,20 @@
   height: 80%;
   width: 80vh;
 }
+@keyframes entryAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-entry-effect {
+  animation: entryAnimation 1s ease-out;
+}
 
 body {
   --sb-track-color: #869682;
@@ -13,6 +27,7 @@ body {
   --sb-size: 6px;
 
   scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -123,4 +138,8 @@ textarea {
 }
 .bg-zinc-300 {
   border-radius: 20px;
+}
+
+.bg-project {
+  background-color: #f0f0f0;
 }

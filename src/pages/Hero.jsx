@@ -1,10 +1,11 @@
-//Hero.jsx
+// Hero.jsx
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 
+
 function Hero() {
   return (
-    <div id='about' className='mt-8'>
+    <div id='about' className='hero-entry-effect mt-8'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-center mb-8'>About</p>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4'>
@@ -14,15 +15,17 @@ function Hero() {
           <div className='mt-12 ml-4 text-center'>
             <p className='sm:text-right text-4xl font-bold'>Hi 👋 I'm SHANMUGAM R, nice to meet you. Please take a look around.</p>
             <p className=' mt-6 text-2xl'>{' '}
-            <span style={{ fontWeight: 'bold', color: 'green' }}><Typewriter
-                words={["I'm passionate Full Stack Developer", 'skilled in MERN stack', 'with a strong foundation in web development.', "Let's create something amazing together!"]}
-                loop={true}
-                cursor
-                cursorStyle='|'
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1000}
-              /></span>
+              <span style={{ fontWeight: 'bold', color: 'green' }}>
+                <Typewriter
+                  words={["I'm a passionate Full Stack Developer", 'skilled in MERN stack', 'with a strong foundation in web development.', "Let's create something amazing together!"]}
+                  loop={true}
+                  cursor
+                  cursorStyle='|'
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
             </p>
           </div>
         </div>

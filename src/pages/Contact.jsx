@@ -41,7 +41,12 @@ const Contact = () => {
   return (
     <div id="contact" className="mt-8">
       <div className="text-center mb-4">
-        <p className="text-4xl font-bold inline border-b-4 border-pink-600 mb-8">Contact Me</p>
+        <p><span className="text-4xl font-bold inline border-b-4 border-pink-600 mb-8">Contact Me</span><button
+        onClick={downloadResume} className="bg-emerald-300 hover:bg-emerald-400 text-white bg-emerald-800 ml-8 font-bold py-2 px-4 rounded 
+        inline-flex items-center">
+            <FaFilePdf className="mr-1 text-2xl" />Download CV
+            </button>
+            </p>
       </div>
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <form onSubmit={formik.handleSubmit} className="max-w-lg mx-auto w-full h-full p-3 m-3 ">
@@ -122,15 +127,6 @@ const Contact = () => {
             Message sent successfully!
           </div>
         )}
-        <div className="flex justify-center items-center mb-4">
-          <button
-            onClick={downloadResume}
-            className="bg-emerald-300 hover:bg-emerald-400 text-white bg-emerald-800 font-bold py-2 px-4 rounded inline-flex items-center"
-          >
-            <FaFilePdf className="mr-2" />
-            Download CV
-          </button>
-        </div>
       </div>
     </div>
   );

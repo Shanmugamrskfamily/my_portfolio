@@ -8,7 +8,7 @@ const Experience = () => {
         <p className="text-4xl font-bold inline border-b-4 border-pink-600 mb-8">My Experience and Journey</p>
       </div>
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="timeline">
+        <div className="timeline text-black">
           <div className="timeline-item  mt-4">
             <div className="timeline-content">
               <div className="experience-duration bg-pink-600 text-white p-2 mb-2 rounded">
