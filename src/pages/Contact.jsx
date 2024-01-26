@@ -3,6 +3,8 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { FaFilePdf } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const Contact = () => {
 
@@ -21,7 +23,7 @@ const Contact = () => {
     onSubmit: async (values, { setSubmitting, resetForm }) => {
       try {
         setSubmitting(true);
-        await emailjs.send('service_v3euoo4', 'template_hxtv0b3', values, 'K69_p-qQF_AENJakL');
+        await emailjs.send( process.env.REACT_APP_EMAILJS_SERVICEID, process.env.REACT_APP_EMAILJS_TEMPLATEID, values, process.env.REACT_APP_EMAILJS_APIKEY);
 
         console.log('Sent successfully');
         setIsSent(true);
