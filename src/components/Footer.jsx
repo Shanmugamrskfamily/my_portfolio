@@ -35,6 +35,9 @@ function Footer() {
           <a href="https://www.linkedin.com/in/shanmugamrskfamily/" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-linkedin fa-4x"></i>
           </a>
+          <a href="https://www.hackerrank.com/profile/shanmugamr" target="_blank" rel="noopener noreferrer">
+          <i className="fa-brands fa-hackerrank fa-4x"></i>
+          </a>
         </div>
       </nav>
     </footer>
