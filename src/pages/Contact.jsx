@@ -4,7 +4,6 @@ import * as Yup from 'yup';
 import { FaFilePdf } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
-
 const Contact = () => {
 
     const [isSent,setIsSent]=useState(false);
