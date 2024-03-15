@@ -10,38 +10,38 @@ export const projectData=[
     },
     {
       "id": 2,
-      "title": "Password Reset Flow using JWT",
-      "description": "This project is a full-stack web application for password management, providing functionalities for signing up, logging in, resetting passwords, and more.",
-      "image": "/images/passwordreset.png",
-      "liveDemoUrl": "https://password-reset-guvi-app.netlify.app/",
-      "githubFrontend": "https://github.com/Shanmugamrskfamily/password-rest-frontend",
-      "githubBackend": "https://github.com/Shanmugamrskfamily/password-reset-backend"
+      "title": "Turbo Tune Motorcycles App",
+      "description": "Turbo Tune Motorcycles: A cutting-edge MERN stack app redefining motorcycle repairs. With Bootstrap, JWT, and role management, it offers seamless booking, workshop management, and real-time status tracking. Experience efficiency and transparency in maintenance like never before",
+      "image": "/images/turbotune.png",
+      "liveDemoUrl": "https://turbo-tune-motorcycles.netlify.app/",
+      "githubFrontend": "https://github.com/Shanmugamrskfamily/turbo-tune-motorcycles-frontend",
+      "githubBackend": "https://github.com/Shanmugamrskfamily/turbo-tune-motorcycles-backend"
     },
     {
       "id": 3,
+      "title": "Markdown Previewer using MERN",
+      "description": "This web app allows users to create, edit, and view Markdown documents. Users can register, log in, and enjoy features like real-time preview, email activation, and password reset. The interface is responsive, with inline validation and toast messages. Built with Node.js, Express, MongoDB, and React.js, it uses JWT for authentication and middleware for token verification.",
+      "image": "/images/markdown.jpg",
+      "liveDemoUrl": "https://markdown-previewer-rsk.netlify.app/",
+      "githubFrontend": "https://github.com/Shanmugamrskfamily/markdown-mern-frontend",
+      "githubBackend": "https://github.com/Shanmugamrskfamily/markdown-mern-backend"
+    },
+    {
+      "id": 4,
+      "title": "Messenger Web Application",
+      "description": "This MERN stack web application leverages CSS for styling, JWT for user authentication, and Socket.IO for real-time messaging functionality. Users can register, log in securely, and exchange messages in real-time with other users. The app provides a seamless and interactive messaging experience, facilitating instant communication between users across different devices.",
+      "image": "/images/messenger.png",
+      "liveDemoUrl": "https://rsk-messenger-web-application.netlify.app/",
+      "githubFrontend": "https://github.com/Shanmugamrskfamily/messenger_frontend",
+      "githubBackend": "https://github.com/Shanmugamrskfamily/messenger_backend"
+    },
+    {
+      "id": 5,
       "title": "Shopping Cart using Redux",
       "description": "This project is a shopping cart website built with HTML, CSS, React, and Redux. It allows users to browse a list of products, add them to their cart, and manage their cart.",
       "image": "/images/shoppingcart.png",
       "liveDemoUrl": "https://redux-shopping-cart-guvi-task.netlify.app/",
       "githubFrontend": "https://github.com/Shanmugamrskfamily/react-redux-task",
-      "githubBackend": "N/A"
-    },
-    {
-      "id": 4,
-      "title": "Library Management System using Formik Validation and CRUD",
-      "description": "This Library Management System, a web application designed to help manage your library's books and authors",
-      "image": "/images/libraryManagement.jpg",
-      "liveDemoUrl": "https://library-management-formik-validation.netlify.app/",
-      "githubFrontend": "https://github.com/Shanmugamrskfamily/FORMIK-VALIDATION-LIBRARY-MANAGEMENT.git",
-      "githubBackend": "N/A"
-    },
-    {
-      "id": 5,
-      "title": "Blog Website using React Router",
-      "description": "This is a blog website built using React and React Router DOM. The website showcases articles related to various topics such as Data Science, Cybersecurity, Career, and more.",
-      "image": "/images/blogWebsite.jpg",
-      "liveDemoUrl": "https://blog-using-react-router-dom-guvi.netlify.app/",
-      "githubFrontend": "https://github.com/Shanmugamrskfamily/guvi-blog-using-react-router-dom.git",
       "githubBackend": "N/A"
     }
   ]

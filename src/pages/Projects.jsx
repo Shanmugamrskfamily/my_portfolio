@@ -62,6 +62,16 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
+            <div className="text-center text-2xl  mt-8">
+                <a
+                    href="https://github.com/Shanmugamrskfamily"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500  hover:underline"
+                >
+                    More projects on GitHub...
+                </a>
+            </div>
         </div>
     );
 };
