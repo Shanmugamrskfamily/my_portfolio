@@ -40,7 +40,7 @@ const Contact = () => {
       });
       
   const downloadResume = () => {
-    window.open('https://drive.google.com/uc?export=download&id=1jMTkTaTns1_xj9taOzBJM1V7XOiiGGiw', '_blank');
+    window.open('https://drive.google.com/uc?export=download&id=12jSkjCvN9RXD-4Q__FmSO15v0F6BfsqW', '_blank');
   };
   
 
