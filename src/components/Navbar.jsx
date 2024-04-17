@@ -15,7 +15,7 @@ function Navbar() {
     }
   };
   const downloadResume = () => {
-    window.open('https://drive.google.com/uc?export=download&id=12jSkjCvN9RXD-4Q__FmSO15v0F6BfsqW', '_blank');
+    window.open('https://drive.google.com/file/d/135L1FFCuQzNzd7oXGSRrhDDdCrHR_2c5/view?usp=sharing', '_blank');
   };
   useEffect(() => {
     localStorage.setItem("theme", theme);
